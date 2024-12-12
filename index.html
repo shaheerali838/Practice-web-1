@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Urbanist", sans-serif;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: var(--bg-color);
+        color: var(--font-color);
+        line-height: 1.6;
+      }
+
+      nav {
+        background-color: var(--main-color);
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      nav h1 {
+        font-size: 3rem;
+        color: var(--white-color);
+        margin: 0;
+      }
+
+      hr {
+        width: 60%;
+        margin: 10px auto;
+        border: 1px solid #ddd;
+      }
+
+      .profile {
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .profile img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border: 4px solid var(--supporting-color);
+      }
+
+      .profile h2 a {
+        font-size: 2rem;
+        color: var(--main-color);
+        text-decoration: none;
+      }
+
+      .profile h2 a:hover {
+        color: var(--bnt-hover-bg-color);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      ul.grid-four--cols {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 0;
+      }
+
+      ul.grid-four--cols li {
+        list-style: none;
+        text-align: center;
+      }
+
+      ul.grid-four--cols li a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background-color: var(--supporting-color);
+        border-radius: 8px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+      }
+
+      ul.grid-four--cols li a img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      ul.grid-four--cols li a:hover {
+        background-color: var(--main-color);
+        transform: scale(1.05);
+        color: var(--white-color);
+      }
+    </style>
+    <title>Menu Page</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Menu Page</h1>
+      <hr />
+    </nav>
+    <div class="profile">
+      <img src="./Images/1723814155194.jpg" alt="Profile Picture" />
+      <h2><a href="./Personal-Resume.html">My Profile</a></h2>
+    </div>
+    <div class="container">
+      <h2>List of Pages</h2>
+      <ul class="grid-four--cols">
+        <li>
+          <a href="./art-gallery.html">
+            <img src="./Images/art.jpg" alt="Art Gallery" />
+            Visit Art Gallery
+          </a>
+        </li>
+        <li>
+          <a href="./Book-Review.html">
+            <img src="./Images/book.jpg" alt="Book Review" />
+            Visit Book Review
+          </a>
+        </li>
+        <li>
+          <a href="./Job-Application.html">
+            <img src="./Images/job.jpg" alt="Job Application" />
+            Visit Job Application
+          </a>
+        </li>
+        <li>
+          <a href="./Personal-Resume.html">
+            <img src="./Images/1723814155194.jpg" alt="Personal Resume" />
+            Visit Personal Resume
+          </a>
+        </li>
+        <li>
+          <a href="./Product-Catalog.html">
+            <img src="./Images/shoe.jpg" alt="Product Catalog" />
+            Visit Product Catalog
+          </a>
+        </li>
+        <li>
+          <a href="./psl-league.html">
+            <img src="./Images/psl.jpg" alt="PSL League" />
+            Visit PSL League
+          </a>
+        </li>
+        <li>
+          <a href="./Recipe.html">
+            <img src="./Images/recipe.jpg" alt="Recipe" />
+            Visit Recipe
+          </a>
+        </li>
+        <li>
+          <a href="./travel-booking.html">
+            <img src="./Images/travel.jpg" alt="Travel Booking" />
+            Visit Travel Booking
+          </a>
+        </li>
+        <li>
+          <a href="./University-Course.html">
+            <img src="./Images/university.jpg" alt="University Course" />
+            Visit University Course
+          </a>
+        </li>
+        <li>
+          <a href="./Weather-Forecast.html">
+            <img src="./Images/weather.jpg" alt="Weather Forecast" />
+            Visit Weather Forecast
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

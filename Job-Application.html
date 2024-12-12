@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <style>
+      footer {
+        padding: 20px 0;
+        background-color: #4a90e2; /* Primary blue color */
+        color: white;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .footer-divider {
+        margin: 20px auto;
+        width: 80%;
+        border-top: 1px solid #fff;
+      }
+
+      .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      .footer-nav li {
+        margin: 5px 0;
+      }
+
+      .footer-nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        padding: 8px 15px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+
+      .footer-nav a:hover {
+        background-color: white;
+        color: #4a90e2;
+        border-color: #4a90e2;
+      }
+    </style>
+  </head>
+  <body
+    style="margin: 0; font-family: Arial, sans-serif; background-color: #f5f5f5"
+  >
+    <!-- Header -->
+    <header
+      style="
+        background-color: #4a90e2;
+        padding: 20px;
+        text-align: center;
+        color: white;
+      "
+    >
+      <h1>Job Application</h1>
+    </header>
+
+    <hr style="border: none; border-top: 5px solid #4a90e2" />
+
+    <!-- Main Section -->
+    <main
+      style="
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <h2 style="color: #4a90e2; text-align: center">
+        Apply for Your Dream Job
+      </h2>
+      <p style="text-align: center; color: #333">
+        Please fill out the form below to submit your job application.
+      </p>
+
+      <form
+        action="#"
+        method="post"
+        style="display: flex; flex-direction: column; gap: 15px"
+      >
+        <!-- Full Name -->
+        <label for="name" style="font-weight: bold; color: #333"
+          >Full Name:</label
+        >
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+          style="padding: 10px; border: 1px solid #ccc; border-radius: 4px"
+        />
+
+        <!-- Email -->
+        <label for="email" style="font-weight: bold; color: #333">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+          style="padding: 10px; border: 1px solid #ccc; border-radius: 4px"
+        />
+
+        <!-- Phone -->
+        <label for="phone" style="font-weight: bold; color: #333">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          required
+          style="padding: 10px; border: 1px solid #ccc; border-radius: 4px"
+        />
+
+        <!-- Position -->
+        <label for="position" style="font-weight: bold; color: #333"
+          >Position:</label
+        >
+        <select
+          id="position"
+          name="position"
+          required
+          style="padding: 10px; border: 1px solid #ccc; border-radius: 4px"
+        >
+          <option value="">Select a position</option>
+          <option value="developer">Web Developer</option>
+          <option value="designer">UI/UX Designer</option>
+          <option value="manager">Project Manager</option>
+          <option value="analyst">Data Analyst</option>
+        </select>
+
+        <!-- Resume Upload -->
+        <label for="resume" style="font-weight: bold; color: #333"
+          >Upload Resume:</label
+        >
+        <input
+          type="file"
+          id="resume"
+          name="resume"
+          required
+          style="padding: 10px; border: 1px solid #ccc; border-radius: 4px"
+        />
+
+        <!-- Message -->
+        <label for="message" style="font-weight: bold; color: #333"
+          >Cover Letter:</label
+        >
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Write your cover letter here"
+          style="padding: 10px; border: 1px solid #ccc; border-radius: 4px"
+        ></textarea>
+
+        <!-- Submit Button -->
+        <button
+          type="submit"
+          style="
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+          "
+        >
+          Submit Application
+        </button>
+      </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <hr class="footer-divider" />
+      <nav>
+        <ul class="footer-nav">
+          <li>
+            <a href="./index.html" title="Go to the Menu Page">Menu Page</a>
+          </li>
+          <li>
+            <a href="./art-gallery.html" title="Visit the Art Gallery"
+              >Art Gallery</a
+            >
+          </li>
+          <li>
+            <a href="./Book-Review.html" title="Explore the Book Review"
+              >Book Review</a
+            >
+          </li>
+          <li>
+            <a
+              href="./Job-Application.html"
+              title="Apply through Job Application"
+              >Job Application</a
+            >
+          </li>
+          <li>
+            <a href="./Personal-Resume.html" title="View Personal Resume"
+              >Personal Resume</a
+            >
+          </li>
+          <li>
+            <a href="./Product-Catalog.html" title="Browse the Product Catalog"
+              >Product Catalog</a
+            >
+          </li>
+          <li>
+            <a href="./psl-league.html" title="Learn about PSL League"
+              >PSL League</a
+            >
+          </li>
+          <li>
+            <a href="./Recipe.html" title="Check out the Recipe">Recipe</a>
+          </li>
+          <li>
+            <a href="./travel-booking.html" title="Plan Travel Booking"
+              >Travel Booking</a
+            >
+          </li>
+          <li>
+            <a
+              href="./University-Course.html"
+              title="Explore University Courses"
+              >University Course</a
+            >
+          </li>
+          <li>
+            <a href="./Weather-Forecast.html" title="Check the Weather Forecast"
+              >Weather Forecast</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

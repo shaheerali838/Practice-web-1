@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Book</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        line-height: 1.6;
+      }
+      nav {
+        color: white;
+        background-color: #4a90ef;
+        padding: 20px 0;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 40px;
+      }
+      h2 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 40px;
+      }
+      .recipe {
+        width: 80%;
+        margin: 30px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .recipe h2 {
+        font-size: 30px;
+        color: #333;
+      }
+
+      .ingredients,
+      .steps {
+        margin-top: 20px;
+      }
+
+      .ingredients ul,
+      .steps ol {
+        padding-left: 20px;
+      }
+
+      .ingredients li,
+      .steps li {
+        margin-bottom: 10px;
+      }
+
+      .recipe img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      footer {
+        padding: 20px 0;
+        background-color: #4a90e2; /* Primary blue color */
+        color: white;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .footer-divider {
+        margin: 20px auto;
+        width: 80%;
+        border-top: 1px solid #fff;
+      }
+
+      .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      .footer-nav li {
+        margin: 5px 0;
+      }
+
+      .footer-nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        padding: 8px 15px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+
+      .footer-nav a:hover {
+        background-color: white;
+        color: #4a90e2;
+        border-color: #4a90e2;
+      }
+    </style>
+  </head>
+  <body>
+    <nav><h1>Recipe Book</h1></nav>
+    <div class="recipe">
+      <h2>Pasta with Tomato Sauce</h2>
+      <img src="./Images/image.jpg" alt="Pasta with Tomato Sauce" />
+      <div class="ingredients">
+        <h3>Ingredients:</h3>
+        <ul>
+          <li>200g pasta</li>
+          <li>2 tablespoons olive oil</li>
+          <li>1 garlic clove, minced</li>
+          <li>1 can (400g) diced tomatoes</li>
+          <li>Salt and pepper to taste</li>
+          <li>Fresh basil leaves for garnish</li>
+        </ul>
+      </div>
+      <div class="steps">
+        <h3>Steps:</h3>
+        <ol>
+          <li>
+            Cook the pasta according to package instructions. Drain and set
+            aside.
+          </li>
+          <li>
+            Heat olive oil in a pan over medium heat and sauté the garlic until
+            fragrant.
+          </li>
+          <li>
+            Add the diced tomatoes and season with salt and pepper. Simmer for
+            10-15 minutes.
+          </li>
+          <li>Mix the cooked pasta into the sauce and toss to combine.</li>
+          <li>Garnish with fresh basil leaves and serve hot.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="recipe">
+      <h2>Chicken Curry</h2>
+      <img src="./Images/image(1).jpg" alt="Chicken Curry" />
+      <div class="ingredients">
+        <h3>Ingredients:</h3>
+        <ul>
+          <li>500g chicken breast, cubed</li>
+          <li>2 onions, finely chopped</li>
+          <li>2 tomatoes, chopped</li>
+          <li>1 tablespoon curry powder</li>
+          <li>1 teaspoon cumin powder</li>
+          <li>1 teaspoon garlic paste</li>
+          <li>1 teaspoon ginger paste</li>
+          <li>1 cup coconut milk</li>
+          <li>Salt and pepper to taste</li>
+          <li>Fresh cilantro for garnish</li>
+        </ul>
+      </div>
+      <div class="steps">
+        <h3>Steps:</h3>
+        <ol>
+          <li>Heat oil in a large pan and sauté onions until golden brown.</li>
+          <li>Add garlic and ginger paste, and cook for another 2 minutes.</li>
+          <li>
+            Stir in curry powder, cumin powder, and chopped tomatoes. Cook for 5
+            minutes.
+          </li>
+          <li>
+            Add the chicken cubes, salt, and pepper. Cook until the chicken is
+            browned.
+          </li>
+          <li>
+            Pour in coconut milk and let it simmer for 20 minutes until the
+            chicken is cooked through.
+          </li>
+          <li>Garnish with fresh cilantro and serve with rice or naan.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="recipe">
+      <h2>Chocolate Cake</h2>
+      <img src="./Images/image(2).jpg" alt="Chocolate Cake" />
+      <div class="ingredients">
+        <h3>Ingredients:</h3>
+        <ul>
+          <li>1 1/2 cups all-purpose flour</li>
+          <li>1 cup sugar</li>
+          <li>1/2 cup cocoa powder</li>
+          <li>1 teaspoon baking powder</li>
+          <li>1 teaspoon baking soda</li>
+          <li>1/2 teaspoon salt</li>
+          <li>2 large eggs</li>
+          <li>1 cup buttermilk</li>
+          <li>1/2 cup vegetable oil</li>
+          <li>1 teaspoon vanilla extract</li>
+          <li>1 cup boiling water</li>
+        </ul>
+      </div>
+      <div class="steps">
+        <h3>Steps:</h3>
+        <ol>
+          <li>
+            Preheat your oven to 350°F (175°C) and grease and flour a cake pan.
+          </li>
+          <li>
+            In a large bowl, mix flour, sugar, cocoa powder, baking powder,
+            baking soda, and salt.
+          </li>
+          <li>
+            Add eggs, buttermilk, oil, and vanilla extract. Mix until smooth.
+          </li>
+          <li>
+            Slowly add boiling water to the batter, mixing until smooth (the
+            batter will be thin).
+          </li>
+          <li>
+            Pour the batter into the prepared cake pan and bake for 30-35
+            minutes, or until a toothpick comes out clean.
+          </li>
+          <li>Let the cake cool before frosting or serving.</li>
+        </ol>
+      </div>
+    </div>
+
+    <footer>
+      <hr class="footer-divider" />
+      <nav>
+        <ul class="footer-nav">
+          <li>
+            <a href="./index.html" title="Go to the Menu Page">Menu Page</a>
+          </li>
+          <li>
+            <a href="./art-gallery.html" title="Visit the Art Gallery"
+              >Art Gallery</a
+            >
+          </li>
+          <li>
+            <a href="./Book-Review.html" title="Explore the Book Review"
+              >Book Review</a
+            >
+          </li>
+          <li>
+            <a
+              href="./Job-Application.html"
+              title="Apply through Job Application"
+              >Job Application</a
+            >
+          </li>
+          <li>
+            <a href="./Personal-Resume.html" title="View Personal Resume"
+              >Personal Resume</a
+            >
+          </li>
+          <li>
+            <a href="./Product-Catalog.html" title="Browse the Product Catalog"
+              >Product Catalog</a
+            >
+          </li>
+          <li>
+            <a href="./psl-league.html" title="Learn about PSL League"
+              >PSL League</a
+            >
+          </li>
+          <li>
+            <a href="./Recipe.html" title="Check out the Recipe">Recipe</a>
+          </li>
+          <li>
+            <a href="./travel-booking.html" title="Plan Travel Booking"
+              >Travel Booking</a
+            >
+          </li>
+          <li>
+            <a
+              href="./University-Course.html"
+              title="Explore University Courses"
+              >University Course</a
+            >
+          </li>
+          <li>
+            <a href="./Weather-Forecast.html" title="Check the Weather Forecast"
+              >Weather Forecast</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

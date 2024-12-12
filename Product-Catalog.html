@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Catalog</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+        background-color: #4a90e2;
+        padding: 20px 0;
+      }
+
+      nav h1 {
+        font-size: 2.5rem;
+        margin: 0;
+      }
+
+      nav hr {
+        width: 80%;
+        margin: 10px auto;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .product {
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+      }
+
+      .product img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .product h2 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+      }
+
+      .product h4 {
+        font-size: 1.2rem;
+        color: #333;
+        margin: 5px 0;
+      }
+
+      .product p {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 10px;
+      }
+
+      .product:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      footer {
+        padding: 20px 0;
+        background-color: #4a90e2; /* Primary blue color */
+        color: white;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .footer-divider {
+        margin: 20px auto;
+        width: 80%;
+        border-top: 1px solid #fff;
+      }
+
+      .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      .footer-nav li {
+        margin: 5px 0;
+      }
+
+      .footer-nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        padding: 8px 15px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+
+      .footer-nav a:hover {
+        background-color: white;
+        color: #4a90e2;
+        border-color: #4a90e2;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Product Catalog</h1>
+      <hr />
+    </nav>
+
+    <main>
+      <!-- Product 1 -->
+      <div class="product">
+        <img src="./Images/download.jpg" alt="Adidas Shoe" />
+        <h2>Adidas</h2>
+        <h4>&dollar;200</h4>
+        <p>
+          A shoe is an item of footwear intended to protect and comfort the
+          human foot.
+        </p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product">
+        <img src="./Images/download (1).jpg" alt="Nike Shoe" />
+        <h2>Nike</h2>
+        <h4>&dollar;200</h4>
+        <p>
+          This shoe is designed for comfort and durability, perfect for all-day
+          wear.
+        </p>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product">
+        <img src="./Images/download (2).jpg" alt="Nike Shoe" />
+        <h2>Nike</h2>
+        <h4>&dollar;200</h4>
+        <p>
+          This shoe is designed for comfort and durability, perfect for all-day
+          wear.
+        </p>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product">
+        <img src="./Images/download (3).jpg" alt="Nike Shoe" />
+        <h2>Nike</h2>
+        <h4>&dollar;200</h4>
+        <p>
+          This shoe is designed for comfort and durability, perfect for all-day
+          wear.
+        </p>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product">
+        <img src="./Images/download (4).jpg" alt="Nike Shoe" />
+        <h2>Nike</h2>
+        <h4>&dollar;200</h4>
+        <p>
+          This shoe is designed for comfort and durability, perfect for all-day
+          wear.
+        </p>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product">
+        <img src="./Images/download (5).jpg" alt="Nike Shoe" />
+        <h2>Nike</h2>
+        <h4>&dollar;200</h4>
+        <p>
+          This shoe is designed for comfort and durability, perfect for all-day
+          wear.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <hr class="footer-divider" />
+      <nav>
+        <ul class="footer-nav">
+          <li>
+            <a href="./index.html" title="Go to the Menu Page">Menu Page</a>
+          </li>
+          <li>
+            <a href="./art-gallery.html" title="Visit the Art Gallery"
+              >Art Gallery</a
+            >
+          </li>
+          <li>
+            <a href="./Book-Review.html" title="Explore the Book Review"
+              >Book Review</a
+            >
+          </li>
+          <li>
+            <a
+              href="./Job-Application.html"
+              title="Apply through Job Application"
+              >Job Application</a
+            >
+          </li>
+          <li>
+            <a href="./Personal-Resume.html" title="View Personal Resume"
+              >Personal Resume</a
+            >
+          </li>
+          <li>
+            <a href="./Product-Catalog.html" title="Browse the Product Catalog"
+              >Product Catalog</a
+            >
+          </li>
+          <li>
+            <a href="./psl-league.html" title="Learn about PSL League"
+              >PSL League</a
+            >
+          </li>
+          <li>
+            <a href="./Recipe.html" title="Check out the Recipe">Recipe</a>
+          </li>
+          <li>
+            <a href="./travel-booking.html" title="Plan Travel Booking"
+              >Travel Booking</a
+            >
+          </li>
+          <li>
+            <a
+              href="./University-Course.html"
+              title="Explore University Courses"
+              >University Course</a
+            >
+          </li>
+          <li>
+            <a href="./Weather-Forecast.html" title="Check the Weather Forecast"
+              >Weather Forecast</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

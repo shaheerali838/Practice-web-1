@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <style>
+      /* General body styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      /* Header Styling */
+      header {
+        background-color: #4a90ef;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      /* Main Content Styling */
+      .content {
+        margin: 30px;
+        text-align: center;
+      }
+
+      .iframe-container {
+        width: 80%;
+        margin: 20px auto;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      iframe {
+        width: 100%;
+        height: 600px;
+        border: none;
+      }
+
+      /* Footer Styling */
+      footer {
+        padding: 20px 0;
+        background-color: #4a90e2; /* Primary blue color */
+        color: white;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .footer-divider {
+        margin: 20px auto;
+        width: 80%;
+        border-top: 1px solid #fff;
+      }
+
+      .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      .footer-nav li {
+        margin: 5px 0;
+      }
+
+      .footer-nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        padding: 8px 15px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+
+      .footer-nav a:hover {
+        background-color: white;
+        color: #4a90e2;
+        border-color: #4a90e2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Weather Forecast</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="content">
+      <h2>Check the Weather</h2>
+      <p>Here you can see the latest weather updates and forecasts.</p>
+
+      <!-- Iframe Container for Weather Widget -->
+      <div class="iframe-container">
+        <!-- Example of an embedded weather forecast iframe -->
+        <iframe
+          class="google-weather"
+          src="https://api.wo-cloud.com/content/widget/?geoObjectKey=177467&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit"
+          name="CW2"
+          scrolling="no"
+          width="290"
+          height="318"
+          frameborder="0"
+          style="border: 1px solid #10658e; border-radius: 8px"
+        >
+        </iframe>
+      </div>
+
+      <!-- Alternative Weather Forecast Widget from another source -->
+      <!-- <div class="iframe-container">
+        <iframe src="https://weatherwidget.io/w/" title="Weather Forecast"></iframe>
+      </div> -->
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <hr class="footer-divider" />
+      <nav>
+        <ul class="footer-nav">
+          <li>
+            <a href="./index.html" title="Go to the Menu Page">Menu Page</a>
+          </li>
+          <li>
+            <a href="./art-gallery.html" title="Visit the Art Gallery"
+              >Art Gallery</a
+            >
+          </li>
+          <li>
+            <a href="./Book-Review.html" title="Explore the Book Review"
+              >Book Review</a
+            >
+          </li>
+          <li>
+            <a
+              href="./Job-Application.html"
+              title="Apply through Job Application"
+              >Job Application</a
+            >
+          </li>
+          <li>
+            <a href="./Personal-Resume.html" title="View Personal Resume"
+              >Personal Resume</a
+            >
+          </li>
+          <li>
+            <a href="./Product-Catalog.html" title="Browse the Product Catalog"
+              >Product Catalog</a
+            >
+          </li>
+          <li>
+            <a href="./psl-league.html" title="Learn about PSL League"
+              >PSL League</a
+            >
+          </li>
+          <li>
+            <a href="./Recipe.html" title="Check out the Recipe">Recipe</a>
+          </li>
+          <li>
+            <a href="./travel-booking.html" title="Plan Travel Booking"
+              >Travel Booking</a
+            >
+          </li>
+          <li>
+            <a
+              href="./University-Course.html"
+              title="Explore University Courses"
+              >University Course</a
+            >
+          </li>
+          <li>
+            <a href="./Weather-Forecast.html" title="Check the Weather Forecast"
+              >Weather Forecast</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

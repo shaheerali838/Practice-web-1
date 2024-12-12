@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Gallery</title>
+    <style>
+      footer {
+        padding: 20px 0;
+        background-color: #4a90e2; /* Primary blue color */
+        color: white;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .footer-divider {
+        margin: 20px auto;
+        width: 80%;
+        border-top: 1px solid #fff;
+      }
+
+      .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      .footer-nav li {
+        margin: 5px 0;
+      }
+
+      .footer-nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        padding: 8px 15px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+
+      .footer-nav a:hover {
+        background-color: white;
+        color: #4a90e2;
+        border-color: #4a90e2;
+      }
+    </style>
+  </head>
+  <body
+    style="margin: 0; font-family: Arial, sans-serif; background-color: #f5f5f5"
+  >
+    <!-- Art Gallery Section -->
+    <nav style="background-color: #4a90e2; padding: 20px; text-align: center">
+      <h1 style="font-size: 70px; color: white; margin: 0">Art Gallery</h1>
+    </nav>
+    <hr style="border: none; border-top: 5px solid #4a90e2" />
+
+    <main
+      style="
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+      "
+    >
+      <!-- Artwork 1 -->
+      <div
+        style="
+          text-align: center;
+          background-color: #ffffff;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          padding: 15px;
+        "
+      >
+        <img
+          src="https://t3.ftcdn.net/jpg/02/73/22/74/240_F_273227473_N0WRQuX3uZCJJxlHKYZF44uaJAkh2xLG.jpg"
+          alt="artwork"
+          style="
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+          "
+        />
+        <h2 style="color: #4a90e2">Mari Dein</h2>
+        <p style="color: #333">
+          “Fluorite” - oil painting. Conceptual abstract picture of the eye. Oil
+          painting in colorful colors. Conceptual abstract closeup of an oil
+          painting and palette knife on canvas.
+        </p>
+      </div>
+
+      <!-- Artwork 2 -->
+      <div
+        style="
+          text-align: center;
+          background-color: #ffffff;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          padding: 15px;
+        "
+      >
+        <img
+          src="https://as1.ftcdn.net/v2/jpg/02/21/70/32/1000_F_221703253_kn2uhTMJOFADLX9oIDSxDaIMo3hGQHY0.jpg"
+          alt="artwork"
+          style="
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+          "
+        />
+        <h2 style="color: #4a90e2">Pressmaster</h2>
+        <p style="color: #333">
+          Word art painted with white gouache on a colorful palette with a
+          paintbrush nearby.
+        </p>
+      </div>
+
+      <!-- Artwork 3 -->
+      <div
+        style="
+          text-align: center;
+          background-color: #ffffff;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          padding: 15px;
+        "
+      >
+        <img
+          src="https://as1.ftcdn.net/v2/jpg/04/19/15/10/1000_F_419151017_YG5CWkGoVSLqGgltRLhwSaoCULELIbIg.jpg"
+          alt="artwork"
+          style="
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+          "
+        />
+        <h2 style="color: #4a90e2">Master1305</h2>
+        <p style="color: #333">
+          Taking a break. Comics styled yellow dotted suit. Modern design,
+          contemporary art collage.
+        </p>
+      </div>
+
+      <!-- Artwork 4 -->
+      <div
+        style="
+          text-align: center;
+          background-color: #ffffff;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          padding: 15px;
+        "
+      >
+        <img
+          src="https://as1.ftcdn.net/v2/jpg/02/63/24/96/1000_F_263249657_2XNPYvZzvUorq5tFCm4Gsj1wCfZ5ZKLR.jpg"
+          alt="artwork"
+          style="
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+          "
+        />
+        <h2 style="color: #4a90e2">Zarya Maxim</h2>
+        <p style="color: #333">
+          Cool music graffiti in urban style on the wall.
+        </p>
+      </div>
+
+      <!-- Artwork 5 -->
+      <div
+        style="
+          text-align: center;
+          background-color: #ffffff;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          padding: 15px;
+        "
+      >
+        <img
+          src="https://img.freepik.com/free-photo/abstract-nature-illustration-tree-backdrop-watercolor-painted-image-generated-by-ai_188544-15564.jpg?t=st=1732032247~exp=1732035847~hmac=1ce25c8da23ad9a204a01a9c0932375f336c7e2a86a659d10187ec20cc83cc3d&w=1060"
+          alt="artwork"
+          style="
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+          "
+        />
+        <h2 style="color: #4a90e2">Vecstock</h2>
+        <p style="color: #333">
+          Abstract nature illustration tree backdrop watercolor painted image
+          generated by AI.
+        </p>
+      </div>
+
+      <!-- Artwork 6 -->
+      <div
+        style="
+          text-align: center;
+          background-color: #ffffff;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          padding: 15px;
+        "
+      >
+        <img
+          src="https://img.freepik.com/free-photo/natures-beauty-colorful-flower-display-generative-ai_188544-7933.jpg?semt=ais_hybrid"
+          alt="artwork"
+          style="
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+          "
+        />
+        <h2 style="color: #4a90e2">Vecstock</h2>
+        <p style="color: #333">
+          Nature's beauty in a colorful flower display generated by AI.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <hr class="footer-divider" />
+      <nav>
+        <ul class="footer-nav">
+          <li>
+            <a href="./index.html" title="Go to the Menu Page">Menu Page</a>
+          </li>
+          <li>
+            <a href="./art-gallery.html" title="Visit the Art Gallery"
+              >Art Gallery</a
+            >
+          </li>
+          <li>
+            <a href="./Book-Review.html" title="Explore the Book Review"
+              >Book Review</a
+            >
+          </li>
+          <li>
+            <a
+              href="./Job-Application.html"
+              title="Apply through Job Application"
+              >Job Application</a
+            >
+          </li>
+          <li>
+            <a href="./Personal-Resume.html" title="View Personal Resume"
+              >Personal Resume</a
+            >
+          </li>
+          <li>
+            <a href="./Product-Catalog.html" title="Browse the Product Catalog"
+              >Product Catalog</a
+            >
+          </li>
+          <li>
+            <a href="./psl-league.html" title="Learn about PSL League"
+              >PSL League</a
+            >
+          </li>
+          <li>
+            <a href="./Recipe.html" title="Check out the Recipe">Recipe</a>
+          </li>
+          <li>
+            <a href="./travel-booking.html" title="Plan Travel Booking"
+              >Travel Booking</a
+            >
+          </li>
+          <li>
+            <a
+              href="./University-Course.html"
+              title="Explore University Courses"
+              >University Course</a
+            >
+          </li>
+          <li>
+            <a href="./Weather-Forecast.html" title="Check the Weather Forecast"
+              >Weather Forecast</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
